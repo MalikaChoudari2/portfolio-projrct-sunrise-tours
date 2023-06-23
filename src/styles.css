@@ -15,14 +15,13 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: #3c3a52;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
 h1 {
-  font-size: 96px;
-  color: #3c3a52;
+  font-size: 90px;
 }
 
 h2 {
@@ -75,5 +74,20 @@ p {
 }
 
 .project-description {
-  padding: auto;
+  padding: 120px auto;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .tours {
+    padding: 90px 20px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
 }
