@@ -59,6 +59,29 @@ p {
   color: #3c3a52;
 }
 
+.about-section {
+  padding: 0;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 50px;
+  line-height: 80px;
+  color: #ebbe52;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
+}
+
+.about-section-content {
+  margin: 20px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
