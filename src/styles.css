@@ -59,26 +59,38 @@ p {
   color: #3c3a52;
 }
 
-.about-section {
+.content-container {
   padding: 0;
   text-align: center;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 50px;
   line-height: 80px;
   color: #ebbe52;
   text-align: center;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 25px;
   text-align: center;
   font-family: var(--default-font-family);
   color: var(--branding-color);
 }
 
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 0.5;
+}
+
+.content {
   margin: 20px;
 }
 
